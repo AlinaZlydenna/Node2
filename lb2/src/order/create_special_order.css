@@ -1,0 +1,54 @@
+
+.create-special-body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.create-special-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 1150px;
+}
+
+.wishes-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.wishes-box {
+    max-width: 1120px;
+    min-height: 100px;
+    background: #FFFFFF;
+    border: 0.75px solid #520974;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.wishes-box:focus {
+    outline: none;
+}
+
+.wishes-label {
+    font-family: 'Imprima', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+
+    color: #520974;
+    padding-left: 10px;
+}
+
+

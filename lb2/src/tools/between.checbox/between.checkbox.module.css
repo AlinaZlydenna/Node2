@@ -1,0 +1,38 @@
+
+.betweenCheckBoxContainerWithLabel {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.betweenLabel {
+    text-align: center;
+    font-size: 24px;
+    color: #520974;
+}
+
+.betweenCheckBoxContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.betweenCheckBoxElement {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.betweenCheckBoxElement input[type=checkbox] {
+    margin-top: 8px;
+    width: 24px;
+}
+
+.betweenCheckBoxElement label {
+    padding-top: 4px;
+    font-size: 22px;
+    color: #520974;
+    margin-left: 5px;
+}

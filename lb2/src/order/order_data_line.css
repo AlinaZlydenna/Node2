@@ -1,0 +1,62 @@
+.order-data-line-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.input-data-container-text-and-put {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.input-data-label {
+    color: #520974;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input-data-box {
+    border: 1px solid #520974;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 20px;
+    width: 170px;
+}
+
+.input-data-box:focus {
+    outline: none;
+}
+
+.made-button {
+    background-color: #FFFFFF;
+    border: 2px solid #520974;
+    border-radius: 25px;
+    width: 180px;
+    height: 45px;
+
+    font-size: 28px;
+    color: #520974;
+
+    transition: 0.4s;
+    padding: 0;
+}
+
+.made-button:hover {
+    color: #FFFFFF;
+    background-color: #520974;
+    font-size: 32px;
+    transition: 0.6s;
+}
+
+.create-order-buttons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 46px;
+}

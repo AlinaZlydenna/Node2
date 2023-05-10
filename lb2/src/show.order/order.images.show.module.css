@@ -1,0 +1,23 @@
+
+.orderImagesContainer {
+    display: grid;
+
+    grid-gap: 10px;
+}
+
+.orderImageBox {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.orderImageBox img {
+    width: 100px;
+    height: 100px;
+}
+
+.orderImageBox label {
+    text-align: center;
+
+}

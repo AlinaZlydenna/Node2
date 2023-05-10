@@ -1,0 +1,49 @@
+.count-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.count-changer-box {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #520974;
+    font-size: 35px;
+    color: #520974;
+    transition: 0.5s;
+}
+
+.count-changer-box:hover {
+    background-color: #520974;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.count-minus-box {
+    border-width: 1px 0 1px 1px;
+    border-radius: 25px 0 0 25px;
+    background-color: #FFFFFF;
+    padding-bottom: 2px;
+}
+
+.count-plus-box {
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 25px 25px 0;
+    background-color: #FFFFFF;
+}
+
+.count-box,
+.count-box:focus,
+.count-box:hover {
+    border: 1px solid #520974;
+    outline: none;
+    font-size: 24px;
+    width: 80px;
+    border-radius: 0;
+    height: 41px;
+    color: #520974;
+
+    text-align: center;
+    padding-left: 15px;
+}

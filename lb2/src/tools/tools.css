@@ -1,0 +1,26 @@
+.field-input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px solid rgba(82, 9, 116, 0.85);
+    border-radius: 5px;
+
+    font-family: 'Inter', serif;
+    padding-left: 5px;
+    font-size: 32px;
+}
+
+.field-input::placeholder {
+    font-size: 36px;
+    font-family: 'Inter', serif;
+    line-height: inherit;
+}
+
+.field-input:hover,
+.field-input:focus {
+    border: 2px solid rgb(86, 207, 255);
+    outline: none;
+}
+

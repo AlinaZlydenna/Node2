@@ -1,0 +1,71 @@
+
+.orderMenuContainer {
+    display: grid;
+    padding: 20px;
+    grid-template-rows: repeat(5, 70px);
+    grid-row-gap: 10px;
+    width: 300px;
+    max-height: 400px;
+
+    background-color: white;
+    color: #520974;
+    border: 2px solid #520974;
+    border-radius: 30px;
+}
+
+.orderMenuContainer p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    height: 35px;
+}
+
+.menuButton {
+    border: 2px solid #520974;
+    border-radius: 20px;
+    background-color: white;
+    color: #520974;
+    font-size: 26px;
+    margin: 2px;
+    outline: none;
+
+    transition: 0.3s;
+
+}
+
+.menuButton:hover {
+    background-color: #520974;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.menuButton.disabled,
+.menuButton.disabled:hover {
+    background-color: gray;
+    border-color: gray;
+    color: white;
+}
+
+.menuButton.green,
+.menuButton.green:hover {
+    background-color: limegreen;
+    border-color: limegreen;
+    color: white;
+}
+
+.menuButton.yellow,
+.menuButton.yellow:hover {
+    background-color: yellow;
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+.menuButton.red,
+.menuButton.red:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}

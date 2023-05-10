@@ -1,0 +1,81 @@
+.orderBox {
+    background: #FFFFFF;
+    border: 1px solid #520974;
+    border-radius: 10px;
+    color: #520974;
+    min-height: 300px;
+
+    width: 425px;
+}
+
+.orderBox h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.orderBox p {
+    color: #706969;
+    padding-left: 4px;
+    line-height: 0px;
+
+}
+
+.orderBox p, span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 0.9em
+}
+
+.orderBox span {
+    padding-top: 15px;
+}
+
+.orderBox p, h2, span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.linkButtonBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.linkButton {
+    width: 220px;
+    height: 50px;
+
+    color: #520974;
+    background-color: white;
+
+    border: 2px solid #520974;
+    border-radius: 10px;
+    font-size: 24px;
+    transition-duration: 0.4s;
+}
+
+.linkButton:hover {
+    transition-duration: 0.5s;
+    background-color: #520974;
+    color: white;
+}
+
+.orderDetails {
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    color: gray;
+}

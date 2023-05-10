@@ -1,0 +1,60 @@
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalContent {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    max-width: 60vw;
+    min-width: 10vw;
+    max-height: 90vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.modalContent.active {
+    transform: scale(1);
+}
+
+.modalContent.active::-webkit-scrollbar {
+    width: 10px;
+    opacity: 0.4;
+    border-radius: 5px;
+
+}
+
+.modalContent.active::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: none;
+}
+
+.modalContent.active::-webkit-scrollbar-thumb {
+    background: #520974;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.modalContent.active::-webkit-scrollbar-thumb:hover {
+    background: aqua;
+}
+
+

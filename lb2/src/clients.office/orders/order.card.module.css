@@ -1,0 +1,103 @@
+
+.shortOrderBox {
+    width: 1100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.stateNumberDateOrderBox {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    font-family: 'Imprima';
+    font-style: normal;
+}
+
+.colorStateBox {
+    width: 20px;
+    border-radius: 20px
+}
+
+.colorStateBox.green {
+    background-color: green;
+}
+
+.colorStateBox.yellow {
+    background-color: yellow;
+}
+
+.colorStateBox.red {
+    background-color: red;
+}
+
+.numberDateOrderBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.numberDateOrderBox p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 14px;
+
+    color: #520974;
+}
+
+.paymentStateAndPriceBoxes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center
+}
+
+.paymentStateAndPriceBoxes span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+    color: #520974;
+    padding-top: 5px;
+
+}
+
+.paymentStateAndPriceBoxes p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 14px;
+
+    color: #520974;
+    padding-bottom: 10px;
+}
+
+.imgAndMoreDetailsBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.imgAndMoreDetailsBox a {
+    background-color: #520974;
+    color: #FFFFFF;
+    width: 35px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 46px;
+    transition-duration: 0.4s;
+}
+
+
+.imgAndMoreDetailsBox a:hover {
+    font-weight: 900;
+    font-size: 52px;
+    transition-duration: 0.4s;
+    color: #FFFFFF;
+}
+
+.imgAndMoreDetailsBox img {
+    width: 100px;
+}

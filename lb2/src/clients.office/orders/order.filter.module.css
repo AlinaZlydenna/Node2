@@ -1,0 +1,85 @@
+
+.filterBox {
+    width: 320px;
+
+    background: #FFFFFF;
+    border: 2px solid #520974;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 0.5s;
+
+    padding: 20px 5px 20px 5px;
+}
+
+.filterMainLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 29px;
+
+    color: #520974;
+    text-align: center;
+}
+
+.filterItemMargin {
+    margin-top: 20px;
+}
+
+.filterInputBox {
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #520974;
+    border-radius: 10px;
+    font-size: 28px;
+    padding-left: 5px;
+    outline: none;
+}
+
+
+.filterInputBox::placeholder {
+    padding-left: 5px;
+}
+
+.submitInput {
+    width: 180px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #520974;
+    color: #520974;
+    font-size: 40px;
+    transition-duration: 0.5s;
+
+    outline: none;
+
+    margin: 20px 5px 5px 5px;
+}
+
+.submitInput:hover {
+    color: #FFFFFF;
+    width: 220px;
+    height: 60px;
+    background: #520974;
+    transition-duration: 0.7s;
+    font-size: 48px;
+
+    margin: 15px 0px 0px 0px;
+}
+
+.optionActive {
+    background-color: #520974;
+    color: white;
+}

@@ -1,0 +1,23 @@
+
+.orderOfficeContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    width: 100vw;
+}
+
+.orderOfficeDateContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.orderOfficeMenuBox {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 320px;
+    margin-right: 20px;
+}

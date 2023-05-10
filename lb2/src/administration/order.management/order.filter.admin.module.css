@@ -1,0 +1,71 @@
+.filterBox {
+    width: 350px;
+    padding-bottom: 20px;
+    max-height: 1280px;
+
+    background: #FFFFFF;
+    border: 1px solid #520974;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.filterMainLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 29px;
+
+    color: #520974;
+    text-align: center;
+}
+
+.filterInputBox {
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #520974;
+    border-radius: 10px;
+    font-size: 26px;
+    padding: 0 !important;
+    outline: none;
+}
+
+
+.filterInputBox::placeholder {
+    padding-left: 5px;
+}
+
+.filterItemMargin {
+    margin-top: 20px;
+}
+
+
+.filterInputBox:hover {
+    border: 2px solid rgb(86, 207, 255);
+    outline: none;
+}
+
+.hiddenButton {
+    width: 200px;
+    height: 15px;
+    font-size: 6px;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #520974;
+    border-width: 0px;
+    color: white;
+    cursor: pointer;
+    font-size: 0px;
+    transition-duration: 0.4s;
+}
+
+.hiddenButton:hover {
+    height: 30px;
+    transition-duration: 0.7s;
+    font-size: 18px;
+}

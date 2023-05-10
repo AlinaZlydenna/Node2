@@ -1,0 +1,86 @@
+.order-part-size-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.create-part-size-button {
+    all: unset;
+    text-align: center;
+    height: 125px;
+    width: 125px;
+
+
+    background-color: #FFFFFF;
+    border: 3px solid #520974;
+    border-radius: 50%;
+
+    color: #520974;
+    font-size: 36px;
+    font-weight: bolder;
+    transition: 0.3s;
+
+}
+
+.create-part-size-button:hover {
+    background-color: #520974;
+    color: #FFFFFF;
+    transition: 0.4s;
+    font-size: 40px;
+}
+
+.part-size-box {
+    width: 500px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border: 1px solid #520974;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part-size-box input:focus {
+    outline: none;
+}
+
+.name-with-remove-button-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.name-with-remove-button-box input[type=text] {
+    width: 420px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #520974;
+    font-size: 24px;
+}
+
+.name-with-remove-button-box input[type=text]::placeholder {
+    padding-left: 5px;
+    font-size: 24px;
+}
+
+.name-with-remove-button-box button {
+    height: 44px;
+    width: 43px;
+
+    background-color: #520974;
+    border: 1px solid #520974;
+    color: #FFFFFF;
+
+    font-size: 32px;
+}
+
+.part-size-input-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+

@@ -1,0 +1,24 @@
+
+.orderDataBox {
+    max-width: 600px;
+
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #520974;
+    margin: 0 5px;
+}
+
+.orderDataBox h2 {
+    color: #520974;
+    text-align: center;
+    font-size: 32px;
+}
+
+.orderDataContainer {
+    padding-left: 5px;
+}
+
+.orderDataContainer p {
+    font-size: 24px;
+    color: gray;
+}

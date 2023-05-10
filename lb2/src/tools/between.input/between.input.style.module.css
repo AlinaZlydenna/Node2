@@ -1,0 +1,43 @@
+
+.betweenInputContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+}
+
+.betweenInputContainer label {
+    text-align: center;
+    font-size: 24px;
+    color: #520974;
+}
+
+.betweenInputContainerTwoInputs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.betweenInputContainerTwoInputs input {
+    width: 135px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px solid #520974;
+    border-radius: 5px;
+    font-family: 'Inter', serif;
+    font-size: 32px;
+    padding-left: 5px;
+}
+
+.betweenInputContainerTwoInputs input::placeholder {
+    font-size: 36px;
+    font-family: 'Inter', serif;
+    line-height: inherit;
+}
+
+.betweenInputContainerTwoInputs input:hover,
+.betweenInputContainerTwoInputs input:focus {
+    border-color: aqua;
+    outline: none;
+}
+

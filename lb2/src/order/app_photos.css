@@ -1,0 +1,66 @@
+
+.photosContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    width: 500px;
+}
+
+.added-photos-label {
+    width: 500px;
+    height: 60px;
+    background: rgba(82, 9, 116, 0.9);
+    border-radius: 30px;
+
+    font-family: 'Imprima', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hidden-input-files,
+.hidden-input-files:hover,
+.hidden-input-files:focus {
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.images-box {
+    margin-top: 20px;
+    height: 96px;
+    border: 2px solid rgba(82, 9, 116);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image-style {
+    height: 96px;
+    width: 96px;
+    border-left: 2px solid rgba(82, 9, 116);
+}
+
+.image-info {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.files-warn-info {
+    color: rgb(116, 9, 18);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}

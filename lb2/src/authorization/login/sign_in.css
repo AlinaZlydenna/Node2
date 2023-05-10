@@ -1,0 +1,93 @@
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-sign-in {
+    margin: 12%;
+    border: 3px solid #520974;
+    width: 370px;
+    height: 300px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    opacity: 85%;
+}
+
+.form-sign-in h2 {
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 48px;
+
+    color: #520974;
+}
+
+.user-field-input-with-text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user-field-input-with-text-container a {
+    width: 70px;
+    padding-top: 4px;
+    font-size: 20px;
+    color: #520974;
+    transition: 0.3s;
+}
+
+.user-field-input-with-text-container a:hover,
+.user-field-input-with-text-container a:focus {
+    color: rgb(38, 194, 255);
+    transition: 0.3s;
+}
+
+.button-container-sign-in {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 20px;
+}
+
+.find-button {
+    box-sizing: border-box;
+
+    margin: 5px;
+    width: 130px;
+    height: 50px;
+    border: 2px solid rgba(82, 9, 116, 0.95);
+    border-radius: 15px;
+
+    color: #520974;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+
+.find-button:hover,
+.find-button:focus {
+    background-color: #520974;
+    color: white;
+
+    width: 140px;
+    height: 60px;
+    margin: 0;
+
+    border: 0 solid rgba(82, 9, 116, 0.95);
+    font-size: 28px;
+
+    transition: all 0.5s;
+}
