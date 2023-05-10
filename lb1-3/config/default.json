@@ -1,0 +1,6 @@
+{
+  "port": 8100,
+  "db_url": "mongodb://127.0.0.1:27017/tailoring",
+  "strength": "10",
+  "jwtWord": "tailoring-node-react-secret-word"
+}
